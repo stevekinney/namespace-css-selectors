@@ -34,3 +34,10 @@ test('it should work with multiple rules', () => {
 
   expect(scopeCSS(input, '.custom')).toEqual(expected);
 });
+
+test('it should work when there are multiple selectors', () => {
+  const input = `h1, p { color: red; }`;
+  const expected = `.scoped h1, .scoped p { color: red; }`;
+
+  expect(scopeCSS(input)).toEqual(expected);
+});
