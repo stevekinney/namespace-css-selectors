@@ -1,6 +1,6 @@
 {
   "name": "namespace-css-selectors",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Prefix CSS selectors to avoid collisions and live in harmony with nature.",
   "main": "index.js",
   "scripts": {
