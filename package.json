@@ -1,0 +1,18 @@
+{
+  "name": "namespace-css-selectors",
+  "version": "1.0.0",
+  "description": "Prefix CSS selectors to avoid collisions and live in harmony with nature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/stevekinney/namespace-css-selectors",
+  "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.2.16"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}
