@@ -10,7 +10,7 @@
   "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
   "license": "MIT",
   "dependencies": {
-    "postcss": "^7.0.26",
+    "postcss": "^8.2.10",
     "postcss-selector-parser": "^6.0.2"
   },
   "devDependencies": {
